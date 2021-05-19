@@ -56,11 +56,17 @@
             display: flex;
 
         }
+        #content-item:hover{
+            background: linear-gradient(to left, #5c5c5cbd, #e7ebe872 );
+
+        }
 
         .img {
             width: 60%;
 
         }
+      
+        
 
         .img img {
             height: 25vh;
@@ -96,6 +102,14 @@
 
 
         }
+        .sub-text:hover{
+            color: white;
+            font-weight: bolder;
+        }
+        .sub-text{
+            display: none;
+        }
+
 
 /* At mobile responsiveness */
         @media (max-width: 850px) {
@@ -135,7 +149,10 @@
             #content-item {
                 height: 35vh;
             }
-
+            #content-item:hover{
+                background: linear-gradient(to left, #5c5c5cbd, #e7ebe872 );
+    
+            }
             .img {
                 width: 70%;
 
@@ -169,9 +186,15 @@
 
             }
             p{
-                font-size: 10px;
+                font-size: 12px;
             }
-
+            .sub-text:hover{
+                color: white;
+                font-weight: bolder;
+            }
+            .sub-text{
+                display: none;
+            }
 
 
 

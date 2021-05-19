@@ -16,7 +16,8 @@
 
         .top-container {
             height: 8vh;
-            background: linear-gradient(to right, #375561, #0066ffa9);
+            background: linear-gradient(to right, #0c5e24, #2a518cfb);
+            z-index: 12;
             position: fixed;
             width: 100%;
 

@@ -57,7 +57,6 @@
         }
 
         .img {
-            /* border: 2px solid red; */
             width: 60%;
 
         }
@@ -71,7 +70,6 @@
         }
 
         .text {
-            /* border: 2px solid rgb(52, 25, 148); */
             width: 30%;
 
         }
@@ -98,7 +96,7 @@
 
         }
 
-
+/* At mobile responsiveness */
         @media (max-width: 850px) {
             body {
                 width: 100%;
